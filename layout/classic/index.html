@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coursy</title>
+    <!-- Style Link -->
+    <link rel="stylesheet" href="./main.css" />
+    <!-- <link rel="stylesheet" href="./css/main-style.css"> -->
+    <!-- Top Icon -->
+    <link rel="shrtcut icon" type="image/svg" href="./icons/logo.png" />
+    <!-- Awesome Font -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <div class="image">
+            <img src="./icons/logo.png" alt="" />
+          </div>
+          <h2>Coursy</h2>
+        </div>
+        <nav>
+          <i class="fa-solid fa-bars bar"></i>
+          <ul>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Catrgories</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </nav>
+        <div class="sign-btns">
+          <a href="#">Sign In</a>
+          <a href="#" class="register main-btn">Register</a>
+        </div>
+      </header>
+    </div>
+
+    <!-- Start landing page -->
+    <section class="landing">
+      <div class="container">
+        <div class="content">
+          <h1>
+            Improve Your Skills by Taking <span>High-Quality</span> Classes
+          </h1>
+          <p>
+            Coursy provides you with the most comfort and counribution to your
+            skills and knowlege.
+          </p>
+          <form action="">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input
+              type="text"
+              placeholder="Search your course"
+              class="search-box"
+            />
+            <button class="search-btn">Find Course</button>
+          </form>
+        </div>
+        <div class="image">
+          <img src="./images/landing.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- End landing page -->
+
+    <!-- Start OverView -->
+    <div class="container">
+      <div class="overview">
+        <!-- Card 1 -->
+        <div class="card" data-color="blue">
+          <div class="header">
+            <i class="fa-solid fa-chart-line head-icon"></i>
+          </div>
+          <h3>Lifetime Access</h3>
+          <p>Without any time constraints, learn the class that you desire</p>
+          <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <!-- Card 2 -->
+        <div class="card" data-color="yellow">
+          <div class="header">
+            <i class="fa-solid fa-user-group head-icon"></i>
+          </div>
+          <h3>Professional Mentor</h3>
+          <p>Providing you with the assistance of experianced mentors</p>
+          <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <!-- Card 3 -->
+        <div class="card" data-color="green">
+          <div class="header">
+            <i class="fa-solid fa-medal head-icon"></i>
+          </div>
+          <h3>Official Certificate</h3>
+          <p>Obtain offical course certification by completing the course</p>
+          <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <!-- Card 4 -->
+        <div class="card" data-color="pink">
+          <div class="header">
+            <i class="fa-solid fa-globe head-icon"></i>
+          </div>
+          <h3>Offline Mode</h3>
+          <p>Learn class material without having to be connected to internet</p>
+          <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- End OverView -->
+
+    <!-- Start Popular Courses -->
+    <section class="popular-courses">
+      <div class="container">
+        <div class="header">
+          <h2>Browse Our <span>Popular Courses</span></h2>
+        </div>
+        <div class="discreption">
+          <p>
+            With Coursy you can take the next step toward your personal and
+            professional goals. Choose your class from now on to determine your
+            future.
+          </p>
+          <div class="fillters">
+            <div class="fillter">
+              <div class="options-container">
+                <div class="option">
+                  <input type="radio" class="radio" id="all" name="category" />
+                  <label for="all-cooks">All Courses</label>
+                </div>
+
+                <div class="option">
+                  <input type="radio" class="radio" id="math" name="category" />
+                  <label for="chicken">Math</label>
+                </div>
+
+                <div class="option">
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="business"
+                    name="category"
+                  />
+                  <label for="meat">Business</label>
+                </div>
+
+                <div class="option">
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="programming"
+                    name="category"
+                  />
+                  <label for="meat">Programming</label>
+                </div>
+              </div>
+              <div class="selected">All Courses</div>
+            </div>
+            <button class="all-courses-btn main-btn">All Courses</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Popular Courses -->
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
